@@ -1,0 +1,27 @@
+{
+  "name": "mymediaserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matwin04/MyMediaServer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matwin04/MyMediaServer/issues"
+  },
+  "homepage": "https://github.com/matwin04/MyMediaServer#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "electron": "^35.0.0",
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1"
+  }
+}
